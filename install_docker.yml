@@ -1,6 +1,6 @@
 ---
 - name: Install Docker on Test Server
-  hosts: 172.31.92.142
+  hosts: ip-172-31-92-142
   become: yes
   tasks:
     - name: Install required system packages
